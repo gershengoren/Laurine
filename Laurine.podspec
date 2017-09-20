@@ -11,5 +11,5 @@ Laurine is a clever Swift script that scans your localization file and generates
   s.author       = { "Jiri Trecak" => "jiritrecak@gmail.com" }
   s.source       = { :git => "https://github.com/JiriTrecak/Laurine.git", :tag => "#{s.version}" }
   
-  s.source_files = "LaurineGenerator.swift"
+  s.preserve_path = "LaurineGenerator.swift"
 end
